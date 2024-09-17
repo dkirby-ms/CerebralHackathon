@@ -93,5 +93,7 @@ if __name__ == "__main__":
         write_data_to_influxdb("POS", "pos_data", timestamp)
         write_data_to_influxdb("SmartShelf", "smart_shelf_data", timestamp)
         write_data_to_influxdb("HVAC", "hvac_data", timestamp)
+        write_data_to_influxdb("LightingSystem", "lighting_system_data", timestamp)
+        write_data_to_influxdb("AutomatedCheckout", "automated_checkout_data", timestamp)
         
         time.sleep(60)
